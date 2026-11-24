@@ -1,6 +1,6 @@
 # Lo017 的 Dalamud 插件库
 
-Lo017 维护的 Dalamud 第三方插件库。
+Lo 维护的 Dalamud 第三方插件库。
 
 ## 安装
 
@@ -24,12 +24,6 @@ https://raw.githubusercontent.com/Lo017/DalamudPlugin/main/repo.json
 
 ## 收录与更新
 
-[repo.json](repo.json) 保存本库的插件列表。每个插件占一个条目，包含插件名称、内部名称、作者、版本号、Dalamud API 级别、功能描述、源码仓库地址，以及安装和更新所用的 ZIP 下载链接。
-
-安装包存放在本仓库的 `plugins/<插件内部名称>/<版本号>/latest.zip`，例如 `plugins/TreasureLedger/0.6.1.0/latest.zip`。安装包包含插件 DLL、插件清单及运行所需的依赖文件。
-
-上传安装包后，将对应的 `raw.githubusercontent.com` 下载地址填入 `repo.json` 的安装与更新链接。源码仓库地址填写在 `RepoUrl` 中。
-
-发布新版时，同步更新 `AssemblyVersion`、`DownloadLinkInstall`、`DownloadLinkUpdate`、`DownloadLinkTesting` 和 `LastUpdate`；`DalamudApiLevel` 与该安装包实际使用的 API 级别保持一致。
+安装包存放在本仓库的 `plugins/<插件内部名称>/<版本号>/latest.zip`
 
 库清单采用 [Dalamud 自定义插件库格式](https://dalamud.dev/plugin-publishing/custom-repositories/)。
