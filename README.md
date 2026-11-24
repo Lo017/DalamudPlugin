@@ -1,4 +1,4 @@
-# Lo017 的 Dalamud 插件库
+# Lo 的 Dalamud 插件库
 
 Lo 维护的 Dalamud 第三方插件库。
 
